@@ -6,6 +6,7 @@ time_in_seconds = int(input('Введите время в секундах: '))
 
 hour = time_in_seconds // 3600
 minute = (time_in_seconds % 3600) // 60
-second = time_in_seconds % 6
+second = time_in_seconds % 60
 
-print(f'{hour:02.0f}:{minute:02.0f}:{second:02.0f}')
+print(f'{hour:02}:{minute:02}:{second:02}')
+

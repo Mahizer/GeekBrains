@@ -13,7 +13,7 @@
 
 # Ответ: на 6-й день спортсмен достиг результата — не менее 3 км.
 first_day_result = int(input('Сколько км вы сегодня пробежали? '))
-user_target = int(input('Сколько км вы бы хотели проюежать? '))
+user_target = int(input('Сколько км вы бы хотели пробежать? '))
 day = 1
 
 while user_target > first_day_result:
